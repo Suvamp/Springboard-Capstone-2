@@ -12,12 +12,16 @@ UCI Machine Learning Repository contains free datasets which can be used by anyo
 This dataset contains a total number of 147 attributes and 2216 instances.
 For the purpposes of the Capstone, only 15 of the attributes were used to see which variable performed as the best predictor of crime rates across the US.
 
-UCI Machine Learning Repository: [](https://archive.ics.uci.edu/ml/datasets/communities+and+crime)
+> * [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/communities+and+crime)
 
-Kaggle: [](https://www.kaggle.com/kkanda/communities%20and%20crime%20unnormalized%20data%20set)
+> * [Kaggle](https://www.kaggle.com/kkanda/communities%20and%20crime%20unnormalized%20data%20set)
 
 
 ### **2. Data Wrangling**
 The Data Wrangling portion features steps in order to get acquainted with the dataset. 
-* **Step 1:** All the appropriiate features such as unemployment rates, race, education, vacancy, and type of crime were observed, along with basic statistical details such as percentile, mean, max, min, and std. Furthermore, each column was checked for the percentage of missing values. 
-* **Step 2:** The datset's categorical attributes were checked for unique values and any duplicate values under 'communityname'. Coommunities with the same names were checked which states they are from and were validated that the duplicates belonged to different states. Then the attributes of interest were averaged and grouped by state to see how each attribute differed from state to state. The distributions were also visulaized through horizontal bargraphs. Boxplots were also used to visulaize the distribution of Violent and NonViolent Crimes for each state.
+* **Step 1:** All the appropriate features such as unemployment rates, race, education, vacancy, and type of crime were observed, along with basic statistical details such as percentile, mean, max, min, and std. Furthermore, each column was checked for the percentage of missing values. 
+* **Step 2:** The datset's categorical attributes were checked for unique values and any duplicate values under 'communityname'. Communities with the same names were checked which states they are from and were validated that the duplicates belonged to different states. Then the attributes of interest were averaged and grouped by state to see how each attribute differed from state to state. The distributions were also visulaized through horizontal bargraphs. Boxplots were also used to visulaize the distribution of Violent and NonViolent Crimes for each state.
+![](Capstone%20Two%20(Data%20Wrangling)/CrimeBoxPlot.png)
+
+* **Step 3:** The entire dataset was checked for the number of missing values occurring in each column. The attributes of focus were not missing much values. Different methods of dropping the missing values were approached to see which method contained most data (shape of the dataset).
+* **Step 4:** Scatter plots were created for the target features to analyze the correlation between the socioeconomic variables and crime variables, in order to gain a premature undestanding of which attribute is highly correlated with the occurrence of crime.
