@@ -34,9 +34,12 @@ The EDA focuses on the relationship between the socioeconomic and crime variable
 The Preprocessing step focuses on cleaning the dataset and crating dummy variables for further analysis. All missing values were dropped rather than filled. Dummy Variables were created for states identifying which state each row is related to. A few regression models were tried on the dataset to see whether the models were working or not. The cleaned dataset was  uploaded into a new csv file for modelling.
 
 ### **5. Modelling**
-The Modelling step purely focuses on Machiine learning. For this process, different Regression models were used on the dataset. The models consist of: Linear Regression, Gradient Boosting, Random Forest, Lasso Regression, Ridge Regression, K Nearest Neighbors, and SVM. The models were fit and tested. Each model was tested twice, once for Violent Crimes and Non Violent Crimes. The scores were compared to see which model did the best.
+The Modelling step purely focuses on Machiine learning. For this process, different Regression models were used on the dataset. The models consist of: Linear Regression, Gradient Boosting, Random Forest, Lasso Regression, Ridge Regression, K Nearest Neighbors, and SVM. The models were fit and tested. Each model was tested twice, once for Violent Crimes and Non Violent Crimes. The scores were compared to see which model did the best. The models were also fit with cross-validation score to avoid overfitting and estimate the skill of the model on the new data.
 
 * **Violent Crimes:** Linear Regression and Random Forest are the top performers with Violent Crimes as the dependent variable.
 ![](Capstone%20Two%20(Modelling)/ViolCrimes%20Predictor%20Comparison.PNG)
 
 * **Non Violent Crimes:** Linear Regression and Lasso Regression are the top performers with Non-Violent Crimes as the dependent variable.
+![](Capstone%20Two%20(Modelling)/NonViolCrimes%20Predictor%20Comparison.PNG)
+
+The best performing models were fit with optimal hyperparameters to get the R^2 score and cross_val_score. Feature importance for the best performers was also calculated in order to see which variable is the best predictor of crime rates. 
