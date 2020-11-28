@@ -25,3 +25,6 @@ The Data Wrangling portion features steps in order to get acquainted with the da
 
 * **Step 3:** The entire dataset was checked for the number of missing values occurring in each column. The attributes of focus were not missing much values. Different methods of dropping the missing values were approached to see which method contained most data (shape of the dataset).
 * **Step 4:** Scatter plots were created for the target features to analyze the correlation between the socioeconomic variables and crime variables, in order to gain a premature undestanding of which attribute is highly correlated with the occurrence of crime.
+
+### **3. EDA**
+The EDA focuses on the relationship between the socioeconomic and crime variables through graphical representation. Histograms were used to visualize the distributions of Violent Crimes, Non-Violent Crimes, and Incomes of different races. Regression Plots were used to visualize the correlation between target variables and crime variables. A heatmap was used to provide a concise way of visulaizing the correlation coefficient between all variables.
