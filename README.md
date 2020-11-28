@@ -35,4 +35,5 @@ The Preprocessing step focuses on cleaning the dataset and crating dummy variabl
 
 ### **5. Modelling**
 The Modelling step purely focuses on Machiine learning. For this process, different Regression models were used on the dataset. The models consist of: Linear Regression, Gradient Boosting, Random Forest, Lasso Regression, Ridge Regression, K Nearest Neighbors, and SVM. The models were fit and tested. Each model was tested twice, once for Violent Crimes and Non Violent Crimes. The scores were compared to see which model did the best.
+
 ![Violent Crimes Precition Comaprison](Capstone%20Two%20(Modelling)/ViolCrimes%20Predictor%20Comparison.PNG)
