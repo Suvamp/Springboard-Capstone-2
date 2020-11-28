@@ -29,3 +29,9 @@ The Data Wrangling portion features steps in order to get acquainted with the da
 ### **3. EDA**
 The EDA focuses on the relationship between the socioeconomic and crime variables through graphical representation. Histograms were used to visualize the distributions of Violent Crimes, Non-Violent Crimes, and Incomes of different races. Regression Plots were used to visualize the correlation between target variables and crime variables. A heatmap was used to provide a concise way of visulaizing the correlation coefficient between all variables.
 ![](Capstone%20Two%20(EDA)/CrimeHeatmap.png)
+
+### **4. Preprocessing**
+The Preprocessing step focuses on cleaning the dataset and crating dummy variables for further analysis. All missing values were dropped rather than filled. Dummy Variables were created for states identifying which state each row is related to. A few regression models were tried on the dataset to see whether the models were working or not. The cleaned dataset was  uploaded into a new csv file for modelling.
+
+### **5. Modelling**
+The Modelling step purely focuses on Machiine learning. For this process, different Regression models were used on the dataset. The models consist of: Linear Regression, Gradient Boosting, Random Forest, Lasso Regression, Ridge Regression, K Nearest Neighbors, and SVM. The models were fit and tested. Each model was tested twice, once for Violent Crimes and Non Violent Crimes. The scores were compared to see which model did the best.
