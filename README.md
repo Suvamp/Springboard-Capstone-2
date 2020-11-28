@@ -12,9 +12,9 @@ UCI Machine Learning Repository contains free datasets which can be used by anyo
 This dataset contains a total number of 147 attributes and 2216 instances.
 For the purpposes of the Capstone, only 15 of the attributes were used to see which variable performed as the best predictor of crime rates across the US.
 
-UCI Machine Learning Repository: [](https://archive.ics.uci.edu/ml/datasets/communities+and+crime)
+> * [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/communities+and+crime)
 
-Kaggle: [](https://www.kaggle.com/kkanda/communities%20and%20crime%20unnormalized%20data%20set)
+> * [Kaggle](https://www.kaggle.com/kkanda/communities%20and%20crime%20unnormalized%20data%20set)
 
 
 ### **2. Data Wrangling**
