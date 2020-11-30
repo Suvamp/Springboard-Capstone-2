@@ -27,7 +27,7 @@ The Data Wrangling portion features steps in order to get acquainted with the da
 * **Step 4:** Scatter plots were created for the target features to analyze the correlation between the socioeconomic variables and crime variables, in order to gain a premature understanding of which attribute is highly correlated with the occurrence of crime.
 
 ### **3. EDA**
-The EDA focuses on the relationship between the socioeconomic and crime variables through graphical representation. Histograms were used to visualize the distributions of Violent Crimes, Non-Violent Crimes, and Incomes of different races. Regression Plots were used to visualize the correlation between target variables and crime variables. A heatmap was used to provide a concise way of visulaizing the correlation coefficient between all variables.
+The EDA focuses on the relationship between the socioeconomic and crime variables through graphical representation. Histograms were used to visualize the distributions of Violent Crimes, Non-Violent Crimes, and Incomes of different races. Regression Plots were used to visualize the correlation between target variables and crime variables. A heatmap was used to provide a concise way of visualizing the correlation coefficient between all variables.
 ![](Capstone%20Two%20(EDA)/CrimeHeatmap.png)
 
 ### **4. Preprocessing**
